@@ -1,6 +1,6 @@
 ---
 - name: Install the OpenShift package for admin tooling
-  yum: pkg=openshift state=present
+  dnf: pkg=openshift state=present
   register: install_result
 
 - name: Reload generated facts
