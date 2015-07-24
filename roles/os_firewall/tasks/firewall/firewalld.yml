@@ -1,6 +1,6 @@
 ---
 - name: Install firewalld packages
-  yum:
+  dnf:
     name: firewalld
     state: present
   register: install_result
