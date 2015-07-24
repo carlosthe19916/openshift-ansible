@@ -1,5 +1,5 @@
 ---
-- yum:
+- dnf:
     name: openshift-ansible-inventory
     state: present
 
