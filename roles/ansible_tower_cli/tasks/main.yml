@@ -1,6 +1,6 @@
 ---
 - name: Install python-ansible-tower-cli
-  yum: name=python-ansible-tower-cli
+  dnf: name=python-ansible-tower-cli
 
 - template:
     src: tower_cli.cfg.j2
