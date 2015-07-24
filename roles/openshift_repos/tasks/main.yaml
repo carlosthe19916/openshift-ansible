@@ -11,7 +11,7 @@
     that: openshift_deployment_type in known_openshift_deployment_types
 
 - name: Ensure libselinux-python is installed
-  yum:
+  dnf:
     pkg: libselinux-python
     state: present
 
