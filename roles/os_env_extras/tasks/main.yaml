@@ -12,6 +12,6 @@
     dest: /root/.vimrc
 
 - name: Bash Completion
-  yum:
+  dnf:
     pkg: bash-completion
     state: installed
